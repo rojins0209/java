@@ -1,7 +1,7 @@
 public class Ajce2 extends Thread
 {
 public void run(){
-System.out.println("Runnning" +Thread.currentThread
+System.out.println("Runnning on" +Thread.currentThread
 ().getName());
 }
 public static void main(String[] args){
