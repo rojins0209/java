@@ -13,7 +13,7 @@ for(int i=2;i<=10;i+=2){
 System.out.println(i);
 
 try{
-	Thread.sleep(10000);
+	Thread.sleep(1000);
 }
 catch(InterruptedException e){
 System.out.println(e);
